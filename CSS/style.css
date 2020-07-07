@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*  {
+    font-family: Calibri;
+}
+header {
+    background: #20c997;
+    text-align: left;
+    padding: 5px 0;
+    color: white;
+
+}
+
+.text-header {
+    margin: 0 55px;
+    padding-top: 10px;
+}
+
+p {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+label {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.W {
+    width: 100%;
+}
+
+.H {
+    height: 25px;
+}
+
+.border-r {
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: lightgrey;
+}
+
+.font-s-m, label {
+    font-size: 12px;
+}
+
+::placeholder, select{
+    padding: 5px;
+    color: lightgrey;
+}
+
+.button {
+     width: 100px;
+     height: 30px;
+     background: #20c997;
+     border: #20c997;
+     color: white;
+}
+
+@media only screen and (min-width:1000px) {
+ .wrapper {
+     width: 1200px;
+     margin: 0 auto;
+     padding-top: 30px;
+ }
+
+    header {
+        padding: 30px;
+    }
+
+    .text-header {
+        margin: 0 68px;
+    }
+
+   h4 {
+       font-size: 24px;
+   }
+    p {
+        font-size: 18px;
+    }
+    .font-s-m, label {
+        font-size: 16px;
+    }
+
+    .W-comp {
+        width: 1000px;
+    }
+
+    .H {
+        height: 30px;
+    }
+}

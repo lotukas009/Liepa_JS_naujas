@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h4 class="text-header">Add your property for sale</h4>
+        <p class="text-header">Yes, you can sell where you live and get cash!!</p>
+    </header>
+    <main>
+        <div class="flex">
+            <form class="W-comp">
+             <p>Add Property</p>
+                <label for="url">Img</label>
+                <input class="W H border-r font-s-m" type="url" id="url" placeholder="https://google.com">
+                <label for="price">Price, EUR</label>
+                <select class="W H border-r font-s-m" id="price">
+                    <option>5000</option>
+                    <option>4000</option>
+                    <option>3000</option>
+                    <option>2000</option>
+                    <option>1000</option>
+                </select>
+                <label for="description">Description</label>
+                <textarea class="border-r font-s-m W " id="description" rows="5" cols="35" placeholder="anything you would like to say?"></textarea>
+                <label for="city">City</label>
+                <select class="H border-r font-s-m" id="city">
+                     <option>Vilnius</option>
+                    <option>Kaunas</option>
+                    <option>Klaipėda</option>
+                </select>
+                <label for="button"></label>
+                <input class="button border-r font-s-m" type="button" id="button" value="Add property">
+            </form>
+        </div>
+    </main>
+</div>
+</body>
+</html>
